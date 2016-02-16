@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <link href="/css/styles.css" rel="stylesheet" media="all" type="text/css" charset="utf-8">
+    <title>Do you know anagrams?</title>
+  </head>
+  <body>
+    <h2>Find out if a word is an anagram:</h2>
+
+        <form action="/anagram_confirm" method="post">
+
+            <label for="word">Enter a word:</label>
+            <input type="text" name="word" id="word" class="form-control">
+            <br>
+
+            <label for="possibleAnagrams">Enter possible anagrams:</label>
+            <input type="text" name="possibleAnagrams" id="possibleAnagrams" class="form-control">
+            <br>
+
+            <button class="btn btn-success btn-sm" type="submit" name="button">Find anagrams!</button>
+
+        </form>
+  </body>
+</html>
